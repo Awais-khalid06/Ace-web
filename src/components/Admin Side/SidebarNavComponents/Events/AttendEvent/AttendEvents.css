@@ -1,0 +1,73 @@
+.ace-admin-events-event-main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 6.1rem 4.4rem 7.3rem 6.1rem;
+}
+.ace-admin-events-event-main-container img {
+  width: 62.7rem;
+  height: 23.9rem;
+  border-radius: 15px;
+}
+.ace-admin-events-event-main-event_name h2 {
+  font-size: 1.85rem;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 400;
+
+  margin: 1.4rem 0 0.5rem 0;
+}
+
+.ace-admin-events-event-main-event_time p {
+  font-size: 1.15rem;
+  color: #a9a9a9;
+  font-family: var(--font-family);
+  font-weight: 400;
+  margin-bottom: 1.4rem;
+}
+.ace-admin-events-event-main-event_detial p {
+  font-size: 1.05rem;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.ace-admin-events-attend_event-main_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3.3rem;
+}
+.ace-admin-events-attend_event-container h2 {
+  font-size: 1.35rem;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 500;
+
+  /* margin-bottom: 1.4rem; */
+}
+.ace-admin-events-attend_event-container p {
+  font-size: 1rem;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 400;
+  margin-bottom: 0;
+  width: 33.5rem;
+}
+.ace-admin-events-attend_btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 11.7rem;
+  height: 4.3rem;
+  background: var(--gradient-btn);
+  border-radius: 22px;
+  cursor: pointer;
+}
+.ace-admin-events-attend_btn-container p {
+  font-size: 1.1rem;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 700;
+  margin-bottom: 0;
+}

@@ -1,0 +1,14 @@
+.admin-fixture-add-fixture-submit-shedule-main_container {
+  padding: 0 12.6rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin: 7rem 0 0 0;
+}
+.ace-admin-fixtures-add-fixture-no-selected-text h1 {
+  font-family: var(--font-family);
+  color: rgb(255, 123, 0);
+  font-size: 1.5rem;
+  font-weight: 500;
+}

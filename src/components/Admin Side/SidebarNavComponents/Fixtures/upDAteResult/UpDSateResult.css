@@ -1,0 +1,36 @@
+.ace-admin-fixtures-update-result-goal-container {
+  width: 13rem;
+  height: 8.3rem;
+  background: var(--gradient-btn);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ace-admin-fixtures-update-result-goal-update-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.ace-admin-fixtures-update-result-goal-update-left-arrow img,
+.ace-admin-fixtures-update-result-goal-update-left-right img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.ace-admin-fixtures-update-result-goal h3 {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.ace-admin-fixtures-update-result-goal-divider {
+  width: 11.8rem;
+  border-bottom: 1px solid #fff;
+}

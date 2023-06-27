@@ -1,0 +1,12 @@
+.ace-home-admin-athlete-view-line {
+  border: 1px solid;
+  color: var(--color-white);
+  opacity: 0.1;
+  width: 92%;
+  margin: 1.8rem 0 1.8rem 0;
+}
+.ace-admin-team-athlete_view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

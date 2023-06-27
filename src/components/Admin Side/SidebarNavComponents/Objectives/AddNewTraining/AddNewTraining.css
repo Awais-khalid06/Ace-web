@@ -1,0 +1,35 @@
+.ace-admin-fixtures-add-fixture-btn-main_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 33.5rem;
+  padding: 2.5rem 0;
+}
+.ace-admin-objectives-add-new_trainig-text_area-heading {
+  color: var(--color-white);
+  font-family: var(--font-family);
+}
+
+.ace-admin-objectives-add-new_trainig-text_area-heading textarea {
+  width: 33.5rem;
+  height: 22.7rem;
+
+  padding: 10px;
+  border: 1px solid #667080;
+  outline: none;
+  background-color: var(--color-footer);
+  border-radius: 6.4px;
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 1.8rem;
+  resize: none;
+}
+.ace-admin-objectives-add-new_trainig-btn-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 33.5rem;
+  padding: 13.8rem 0 3.2rem 0;
+}

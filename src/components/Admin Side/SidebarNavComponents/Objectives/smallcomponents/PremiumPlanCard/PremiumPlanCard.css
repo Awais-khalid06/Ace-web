@@ -1,0 +1,53 @@
+.ace-admin-objectives-comp-premium-main_conatainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 32.8rem;
+  height: 10.3rem;
+  background-color: #202225;
+  border-radius: 7.28396px;
+  margin: 0.7rem 0;
+}
+
+.ace-admin-ojectives-comp-emtp {
+  flex: 1;
+}
+
+.ace-admin-objectives-comp-info-container {
+  flex: 1;
+  margin-left: 1.6rem;
+}
+
+.ace-admin-objectives-comp-premium-main_conatainer img {
+  width: 8.8rem;
+  height: 10.3rem;
+  border-radius: 7.2814px 87.2024px 87.2024px 7.2814px;
+}
+.ace-admin-objectives-comp-info-container h1 {
+  font-size: 1.2rem;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 500;
+}
+
+.ace-admin-objectives-comp-info-container h2 {
+  font-size: 0.7rem;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 400;
+}
+
+.ace-admin-objectives-comp-info-container h3 {
+  font-size: 0.9rem;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 500;
+}
+
+.ace-admin-objectives-comp-info-container p {
+  font-size: 0.76rem;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 400;
+}

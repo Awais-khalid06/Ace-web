@@ -1,0 +1,89 @@
+.ace-admin-team-line-up-heading_contianer h1 {
+  color: var(--color-white);
+  font-family: var(--font-fmaily);
+  font-weight: 400;
+  font-size: 20.9557px;
+  padding: 5.7rem 0 4.8rem 0;
+}
+
+.ace-admin-team-line-up_title_container h2 {
+  color: var(--color-white);
+  font-family: var(--font-fmaily);
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 16.3082px;
+  align-self: flex-start;
+  padding-bottom: 2.1rem;
+}
+.ace-admin-team-line-up_container {
+  height: 49.6rem;
+  width: 71.5rem;
+  background-color: var(--color-footer);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ace-admin-team-line-up-background_image {
+  background-image: url("./linUp-image.png");
+  height: 46.6rem;
+  width: 68.5rem;
+  background-size: contain;
+}
+
+.ace-admin-team-line-up-position_image img {
+  width: 6.2rem;
+  height: 6.2rem;
+  border-radius: 29px;
+  cursor: pointer;
+}
+
+.ant-modal-footer {
+  display: none !important;
+}
+
+.ant-modal-body {
+  padding: 0px !important;
+
+  line-height: 1.5715;
+  word-wrap: break-word;
+  width: 57.5rem !important;
+  /* height: 51rem !important; */
+  background: var(--color-footer);
+  border-radius: 15px !important;
+}
+/* .ant-modal-close {
+  display: none !important;
+} */
+
+.ant-modal-content {
+  background: var(--color-footer) !important;
+  border-radius: 15px !important;
+}
+
+/* .ace-admin-team-line-up-position_image :hover {
+  background: red;
+} */
+
+.ace-admin-team-line-up-position_image-style::before {
+  content: "hellllssnscnscsm";
+  z-index: 10;
+  color: red;
+  top: 100px;
+  right: 100px;
+}
+
+.ace-admin-team-line-up-position_image-delet-text img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 20px;
+  z-index: 10;
+  left: 16px;
+}
+
+.ant-modal-close-x {
+  line-height: 1px !important;
+  height: 1px !important;
+}

@@ -1,0 +1,51 @@
+.ace-admin-objectives-add_week-main_container {
+  display: flex;
+  flex-direction: column;
+}
+.ace-admin-objectives-add_week-week_name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 33.5rem;
+}
+
+.ace-admin-objectives-add_week-week_name h2 {
+  color: #ffffff;
+  padding: 0.5rem 0;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.ace-admin-objectives-add_week-box-main_container {
+  width: 33.5rem;
+  height: 5.3rem;
+  border: 1px solid #667080;
+  border-radius: 10px;
+}
+
+.ace-admin-objectives-add_week-box-main_container h2 {
+  color: var(--color-green);
+  padding: 0.5rem 0;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 1.5rem 0 2rem 2rem;
+}
+
+.ace-admin-objectives-add_more-btn {
+  display: flex;
+  width: 12rem;
+  height: 3.7rem;
+  background: var(--gradient-btn);
+  border-radius: var(--btn-border-radius);
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-family: var(--font-family);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}

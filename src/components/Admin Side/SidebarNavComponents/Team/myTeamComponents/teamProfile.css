@@ -1,0 +1,44 @@
+.ace-admin-team-my_team-com-main_container {
+  width: 36.5rem;
+  /* height: 29.9rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--color-footer);
+  border-radius: 1.5rem;
+}
+.ace-admin-team-my_team-com-main_container img {
+  width: 11.9rem;
+  height: 11.9rem;
+  margin: 2.4rem 0 2.2rem 0;
+  object-fit: contain;
+  border-radius: 6rem;
+  fill: drop-shadow(0px 3.37589px 6.75177px rgba(130, 239, 0, 0.1));
+}
+.ace-admin-team-my_team-com-heading_container h1 {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-size: 2.126rem;
+}
+
+.ace-admin-team-my_team-com-heading_para p {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-size: 1rem;
+  padding: 2.3rem 0;
+  margin-bottom: 0;
+}
+.ace-admin-team-my_team-com-heading_edit_profile {
+  padding: 0 0 3.6rem 0;
+}
+.ace-admin-team-my_team-com-heading_edit_profile h2 {
+  font-family: var(--font-family);
+  font-size: 1.3rem;
+  color: var(--color-green);
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+/* .ace-admin-team-my_team-com-heading_edit_profile h2:hover {
+  color: rgb(0, 255, 123);
+} */

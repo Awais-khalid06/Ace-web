@@ -1,0 +1,30 @@
+.ace-admin-team-edit-profile-heading_contianer {
+  width: 71.5rem;
+}
+
+.ace-admin-team-edit-profile-heading_contianer h1 {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 2.09rem;
+  line-height: 24px;
+  padding: 5.7rem 0 8.2rem 0rem;
+}
+
+.ace-admin-team-edit-profile-edit_mainContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-footer);
+  /* height: 57.9rem; */
+  width: 71.5rem;
+  border-radius: 1.5rem;
+  align-items: center;
+}
+
+.ant-upload-list-picture-card-container {
+  display: inline-block;
+  /* width: 15rem !important;
+  height: 15rem !important; */
+  margin: 0 8px 8px 0;
+  vertical-align: top;
+}

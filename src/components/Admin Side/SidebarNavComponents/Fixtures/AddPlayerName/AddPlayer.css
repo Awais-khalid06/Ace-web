@@ -1,0 +1,49 @@
+.ace-admin-fixtures-add-fixture-fixture-para h2 {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.ace-admin-fixtures-add-fixture-fixture-para {
+  padding: 2.8rem 0;
+}
+
+.ace-admin-fixtures-add-fixture-fixture-select-team-btn {
+  width: 11.7rem;
+  height: 4.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gradient-btn);
+  border-radius: 25px;
+  cursor: pointer;
+}
+.ace-admin-fixtures-add-fixture-fixture-select-team-btn h3 {
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.ant-modal-body {
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+}
+
+.ace-admin-fixture-add-player-of-goal-main-modal-Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 32rem;
+  align-self: center;
+  margin: 2rem 0;
+}
+.ace-admin-fixture-add-player-of-goal-main-modal h2 {
+  font-size: 1.5rem;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 400;
+}

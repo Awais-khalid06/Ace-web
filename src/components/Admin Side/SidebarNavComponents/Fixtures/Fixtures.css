@@ -1,0 +1,103 @@
+.ace-admin-fixtures-main-heading_container {
+  width: 100%;
+  padding: 0 12.6rem;
+}
+
+.ace-admin-fixturs-active-fixture--result-main_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  /* width: 71.1rem; */
+  /* align-items: center; */
+  justify-content: space-between;
+  /* padding: 0 12.6rem; */
+}
+.ace-admin-fixturs-active-fixture-main_container {
+  display: flex;
+  flex-direction: column;
+  width: 36.5rem;
+  margin-right: 1.2rem;
+}
+.ace-admin-fixturs-active-fixture-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.ace-admin-fixtures-active-fixture-text h2 {
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-size: 1.63rem;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+.ace-admin-fixtures-active-fixture-update-result_link a,
+.ace-admin-fixtures-active-fixture-update-result_link a:hover {
+  color: var(--color-green);
+  font-family: var(--font-family);
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+.ace-admin-fixturs-active-fixture-container {
+  display: flex;
+  width: 36.5rem;
+  height: 29.9rem;
+  background: var(--color-footer);
+  border-radius: 15px;
+}
+.ace-admin-fixturs-active-fixture-result_container {
+  display: flex;
+  flex-direction: column;
+  width: 33.5rem;
+}
+.ace-admin-fixturs-fixture_result-container {
+  display: flex;
+  /* width: 33.5rem; */
+  height: 29.9rem;
+  background: var(--color-footer);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.ace-admin-fixturs-fixture_result-container::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+.ace-admin-fixturs-fixture_result-container ::-webkit-scrollbar-track {
+  background: var(--color-primary-bg);
+  border-radius: 2px;
+}
+
+/* Handle */
+.ace-admin-fixturs-fixture_result-container::-webkit-scrollbar-thumb {
+  background: rgba(255, 0, 0, 0);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.ace-admin-fixturs-fixture_result-container::-webkit-scrollbar-thumb:hover {
+  background: var(--color-green);
+}
+
+.ace-admin-fixtures-upcoming-fixtures-main_container {
+  display: flex;
+  flex-direction: column;
+  width: 36.5rem;
+  height: 25.5rem;
+  background: var(--color-primary-bg);
+  box-shadow: 0px 1.25373px 10.0299px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ace-adminHome-fixture-sponcer-container-img img {
+  width: 33rem;
+  height: 26.5rem;
+}

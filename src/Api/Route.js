@@ -1,0 +1,22 @@
+const BASE_URL = "https://athlete-backend.herokuapp.com";
+export default {
+  GetTeamAthlete: BASE_URL + "/api/teams/teamAthletes",
+  removeAthlete: BASE_URL + "/api/teams/removeTeamAthlete",
+  updateListing: BASE_URL + "/api/listings/update",
+  deletListing: BASE_URL + "/api/listings/delete",
+  updateListing: BASE_URL + "/api/listings/update",
+  teamAthlete: BASE_URL + "/api/teams/teamAthletes",
+  getCoachProfile: BASE_URL + "/api/user/getProfile",
+  profileUpdate: BASE_URL + "/api/user/userUpdate",
+  gettingAthleteProfile: BASE_URL + "/api/user/getUserProfile",
+  addCard: BASE_URL + "/api/user/addCard",
+  gettingEvents: BASE_URL + "/api/events/getEvents",
+  getCoachTeam: BASE_URL + "/api/teams/coachTeam",
+  CoachTeamUpdate: BASE_URL + "/api/teams/update",
+  addClassInTrain: BASE_URL + "/api/classes/add",
+  deleteObjectives: BASE_URL + "/api/objectives/delete",
+  editObjectives: BASE_URL + "/api/objectives/update",
+  getSingleObjective: BASE_URL + "/api/objectives/getSingle",
+  deleteObjectiveClass: BASE_URL + "/api/classes/delete",
+  editClass: BASE_URL + "/api/classes/update",
+};

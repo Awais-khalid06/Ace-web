@@ -1,0 +1,125 @@
+.ace-admin-objectives-add_training-drop_down-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 33.5rem;
+}
+.ace-image-pick-from-system img {
+  width: 50px;
+  height: 50px;
+}
+
+/* .upload__image-wrapper button {
+  width: 10rem;
+  height: 4rem;
+  background: var(--gradient-btn);
+  border-radius: 20px;
+  border: none;
+  color: var(--color-white);
+} */
+
+.ace-upload-image-set-conatainer {
+  width: 22rem;
+  height: 18rem;
+
+  margin: 2rem 0 0rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-green);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.ace-upload-image-set-conatainer img {
+  width: 5rem;
+  height: 5rem;
+}
+.ace-upload-image-set-para p {
+  color: var(--color-white);
+  font-size: 15px;
+  font-weight: 300;
+  font-family: var(--font-family);
+  margin-bottom: 0;
+}
+
+.ace-upload-image-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 3.5rem;
+  background: var(--gradient-btn);
+  border-radius: 10px;
+}
+
+.ace-upload-image-btn p {
+  color: var(--color-white);
+  font-size: 15px;
+  font-weight: 300;
+  font-family: var(--font-family);
+  margin-bottom: 0;
+}
+
+.ace-admin-objectives-add-new_trainig-image-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 33.5rem;
+}
+.ace-admin-objectives-add-new_trainig-image-text p {
+  color: var(--color-white);
+  font-size: 15px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  margin-bottom: 0;
+}
+.ace-admin-objectives-add-new_trainig-image-text img {
+  width: 33.5rem;
+  height: 15.7rem;
+  object-fit: contain;
+}
+
+.upload__image-wrapper {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  width: 33.6rem;
+  flex-direction: column;
+  margin-top: 2.2rem;
+}
+
+.ace-upload__image-wrapper-name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 33.6rem;
+  justify-content: space-between;
+}
+
+.upload__image-wrapper p {
+  color: var(--color-white);
+  font-size: 15px;
+  font-weight: 300;
+  font-family: var(--font-family);
+  margin-bottom: 0;
+}
+.image-item__btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 33.5rem; */
+  /* margin: 2rem 0 0 0; */
+}
+
+.image-item__btn-wrapper button {
+  color: var(--color-white);
+  width: 12rem;
+  height: 3.5rem;
+  background: var(--gradient-btn);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}

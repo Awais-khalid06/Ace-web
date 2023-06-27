@@ -1,0 +1,23 @@
+.ace-submit_button button {
+  display: flex;
+  width: 24rem;
+  height: 5.7rem;
+  background: var(--gradient-btn);
+  border-radius: var(--btn-border-radius);
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-family: var(--font-family);
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.ace-admin-objectives-add_week-ticket-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  /* margin-top: 2rem; */
+}

@@ -1,0 +1,157 @@
+.ace-admin-adminHome-fixture-main_continer {
+  width: 30.7rem;
+  height: 25.9rem;
+  /* background-color: var(--color-primary-bg); */
+  /* background: linear-gradient(
+    248.67deg,
+    #202225 1.8%,
+    rgba(32, 34, 37, 0) 103.16%
+  ); */
+
+  background: rgba(32, 34, 37, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.7px);
+  -webkit-backdrop-filter: blur(12.7px);
+  border: 1px solid rgba(46, 44, 44, 0.1);
+
+  margin: 2rem 2.3rem;
+  border-radius: 15px;
+  z-index: 1;
+}
+.ace-admin-adminHome-fixture-vs-main_continer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ace-admin-adminHome-fixture-vsimg-continer {
+  width: 2.29rem;
+  height: 2.29rem;
+  background: var(--color-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ace-admin-adminHome-fixture-vsimg-continer {
+  width: 1.859;
+  height: 1.859;
+}
+
+.ace-admin-adminHome-fixture-time-main_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.ace-admin-adminHome-fixture-time_container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 1.9rem;
+}
+.ace-admin-adminHome-fixture-time_container h2 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 9.95632px;
+  line-height: 14px;
+  color: #c4c4c4;
+}
+
+.ace-admin-adminHome-fixture-time_container h1 {
+  font-family: var(--font-family);
+
+  font-weight: 500;
+  font-size: 9.95632px;
+  line-height: 14px;
+  color: #82ef00;
+  padding: 0;
+}
+
+.ace-admin-adminHome-fixture-time_container h1 span {
+  font-family: var(--font-family);
+
+  font-weight: 500;
+  font-size: 9.95632px;
+  line-height: 14px;
+  color: #c4c4c4;
+}
+.ace-admin-adminHome-fixture-start-time_container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 7.5rem;
+}
+.ace-admin-adminHome-fixture-start-time_container h1 {
+  font-family: var(--font-family);
+
+  font-weight: 500;
+  font-size: 9.95632px;
+  line-height: 14px;
+  color: #c4c4c4;
+  padding: 0;
+}
+.ace-admin-adminHome-fixture-results h1 {
+  color: var(--color-white);
+
+  font-weight: 500;
+  font-size: 13.3441px;
+  line-height: 18px;
+  padding: 1.6rem 0 1.3rem 1.9rem;
+}
+
+.ace-admin-adminHome-fixture-match_results_main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ace-admin-adminHome-fixture-match_results-club-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 1.4rem 0 1.5rem;
+}
+
+.ace-admin-adminHome-fixture-match_results-club-name h1 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 18px;
+
+  color: #999fa9;
+  padding: 0;
+}
+
+.ace-admin-adminHome-fixture-match_results-scour-container {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 1.3rem;
+  background: var(--gradient-btn);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.2rem 0 0 0;
+}
+
+.ace-admin-adminHome-fixture-match_results-scour-container p {
+  font-weight: 500;
+  font-size: 14.9345px;
+  line-height: 21px;
+  color: var(--color-white);
+  margin-bottom: 0;
+  font-family: var(--font-family);
+}
+.ace-admin-adminHome-fixture-match_results_main-container p {
+  color: #c4c4c4;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9.95632px;
+  font-family: var(--font-family);
+}
+.ace-admin-adminHome-fixture-match_results-scour-timer p {
+  padding-top: 4rem;
+  margin-bottom: 0;
+}

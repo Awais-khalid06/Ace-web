@@ -1,0 +1,46 @@
+.rti--container {
+  --rti-bg: "#fff" !important;
+  --rti-border: #667080 !important;
+  --rti-main: #667080 !important;
+  --rti-radius: "0.375rem";
+  --rti-s: "0.5rem"; /* spacing */
+  --rti-tag: #edf2f7;
+  --rti-tag-remove: red;
+  width: 33.6rem !important;
+
+  border-radius: 6.4px !important;
+  border: 1px solid #667080;
+  --rti-height: 30px !important;
+}
+
+.rti--input {
+  height: 45px !important;
+  background: #2b2d30 !important;
+  color: #fff;
+  border-radius: 6.4px;
+  margin-left: 5px;
+}
+
+.rti--tag {
+  height: 30px !important;
+  margin: 0 5px 0 5px !important;
+  border-radius: 6.4px !important;
+}
+
+.rti--tag button {
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.ace-admin-tags-main-contaner p {
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+  margin: 1.7rem 0 0 0;
+}
+
+.ace-admin-objectives-add-new_trainig-image-text video {
+  width: 33.35rem;
+  height: 15.7rem;
+}

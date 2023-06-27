@@ -1,0 +1,46 @@
+/* .ace__container {
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-primary-bg);
+} */
+
+.ace-signUp-inpiut-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ace-signUp-inpiut-container h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.65217rem;
+  line-height: 42px;
+  /* identical to box height */
+  color: var(--color-white);
+  text-align: center;
+  text-transform: capitalize;
+  margin: 8.5rem 0 5.6rem 0;
+}
+
+.ace-signUp-inpiut-container .ace-signUp-orwith {
+  font-family: var(--font-family);
+  color: #b7c6d9;
+  font-weight: 500;
+  font-size: 18.2609px;
+  margin: 0 0 2.9rem 0;
+}
+.ace-login-move-signUp {
+  margin: 3.5rem 0 3.4rem 0;
+  text-align: center;
+}
+.ace-signUp-inpiut-container .ace-login-move-signUp span a {
+  color: #3473ff;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 560px) {
+  .ace-login-move-signUp {
+    margin: 3.5rem 3rem 3.4rem 3rem;
+  }
+}

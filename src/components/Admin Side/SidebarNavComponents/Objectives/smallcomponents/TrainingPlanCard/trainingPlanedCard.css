@@ -1,0 +1,82 @@
+.ace-admin-objectives-comp-training-card-main_container {
+  width: 33.7rem;
+  /* height: 11.8rem; */
+  background: #202225;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1.3rem;
+}
+.ace-admin-objectives-comp-training-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 0 2rem;
+}
+.ace-admin-objectives-comp-training-info-container h2 {
+  font-size: 1.4rem;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 500;
+  margin-bottom: 0;
+  padding: 6px 0 5px 0;
+}
+
+.ace-admin-objectives-comp-training-info-container h3 {
+  font-size: 0.7rem;
+  color: #ececec;
+  font-family: var(--font-family);
+  font-weight: 400;
+  width: 96px;
+  margin-bottom: 1rem;
+  height: 2.3rem;
+}
+
+.ace-admin-objectives-comp-training-info-container p {
+  font-size: 0.9rem;
+  color: #ececec;
+  font-family: var(--font-family);
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-bottom: 6px;
+}
+
+.ace-admin-objectives-comp-training-img-container img {
+  width: 12.6rem;
+  height: 11.8rem;
+  border-radius: 30.889px 5.16372px 5.16372px 0px;
+}
+
+.ace-admin-objectives-comp-training-crud-Main_training {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.ace-admin-objectives-comp-training-crud-editIcon img {
+  width: 17px;
+  height: 17px;
+}
+
+.ace-admin-objectives-comp-training-crud-editIcon img {
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+.ace-admin-objectives-comp-training-crud-deletIcon img {
+  width: 17px;
+  height: 17px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.ace-admin-objectives-comp-training-crud-Edit_section h2 {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  color: var(--color-green);
+  margin-bottom: 0;
+  cursor: pointer;
+}

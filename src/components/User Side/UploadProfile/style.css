@@ -1,0 +1,22 @@
+.ant-upload-list-picture .ant-upload-list-item,
+.ant-upload-list-picture-card .ant-upload-list-item {
+  padding: 0px !important;
+  border: none !important;
+}
+
+.ant-upload-list-picture-card .ant-upload-list-item-thumbnail,
+.ant-upload-list-picture-card .ant-upload-list-item-thumbnail img {
+  border-radius: 50% !important;
+}
+
+.ant-upload-list-picture-card .ant-upload-list-item-info::before {
+  border-radius: 50% !important;
+}
+
+.ant-upload.ant-upload-select-picture-card {
+  background-color: #999fa9 !important;
+  border: 1px dashed #d9d9d9;
+
+  transition: border-color 0.3s;
+  border-radius: 50% !important;
+}

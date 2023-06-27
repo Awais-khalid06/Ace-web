@@ -1,0 +1,52 @@
+.ace-admin-fixtures-comp-upcoming-fixtures-main_container {
+  width: 32.2rem;
+
+  display: flex;
+  flex-direction: column;
+  background: var(--color-footer);
+  border-radius: 15px;
+  padding: 1.4rem 2rem 1.3rem 2rem;
+  margin-bottom: 1.2rem;
+}
+.ace-admin-fixtures-comp-upcoming-fixtures-team-info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+.ace-admin-fixtures-comp-upcoming-fixtures-VS-container {
+  width: 1.948rem;
+  height: 1.948rem;
+  background: var(--color-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ace-admin-fixtures-comp-upcoming-fixtures-VS-container img {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.ace-admin-fixtures-comp-upcoming-fixtures-date-time-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ace-admin-fixtures-comp-upcoming-fixtures-date-time {
+  width: 11rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.ace-admin-fixtures-comp-upcoming-fixtures-Kicksoff h2,
+.ace-admin-fixtures-comp-upcoming-fixtures-date-time h2 {
+  margin-bottom: 0;
+  font-family: var(--font-family);
+  color: #c4c4c4;
+  font-size: 1.1rem;
+}
+.ace-admin-fixtures-comp-upcoming-fixtures-Kicksoff {
+  width: 11rem;
+  display: flex;
+}

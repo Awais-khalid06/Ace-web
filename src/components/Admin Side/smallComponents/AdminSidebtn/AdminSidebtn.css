@@ -1,0 +1,18 @@
+.ace-admin-sml-comp-admin-side-btn-main_container {
+  width: 24rem;
+  height: 6.3rem;
+  background: var(--gradient-btn);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3.2rem;
+  cursor: pointer;
+}
+
+.ace-admin-sml-comp-admin-side-btn-main_container h2 {
+  font-size: 1.6rem;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 700;
+  margin-bottom: 0;
+}

@@ -1,0 +1,15 @@
+.ace-listings-add_new_listing-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 12.5rem 0 12.5rem;
+}
+
+.ace-listings-add_new_listing-container h2 {
+  font-size: 1.6rem;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 400;
+  /* margin-bottom: 0; */
+}

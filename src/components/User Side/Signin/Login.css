@@ -1,0 +1,72 @@
+.ace__container {
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-primary-bg);
+}
+.ace-login-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ace-login-input-container h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.65217rem;
+  line-height: 42px;
+  /* identical to box height */
+  color: var(--color-white);
+  text-align: center;
+  text-transform: capitalize;
+  margin: 8.5rem 0 5.6rem 0;
+}
+.ace-login-forgetPassword-text-container {
+  width: 33.5rem;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 3.6rem;
+}
+
+.ace-login-forgetPassword-text-container p a {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #4780ff;
+  text-decoration: underline;
+}
+.ace-login-input-container .ace-login-orwith {
+  font-family: var(--font-family);
+  color: #b7c6d9;
+  font-weight: 500;
+  font-size: 18.2609px;
+  margin: 0 0 2.9rem 0;
+}
+.ace-login-move-signUp {
+  margin: 3.5rem 0 20rem 0;
+}
+
+.ace-login-move-signUp p {
+  font-weight: 400;
+  font-size: 13.6957px;
+  line-height: 20px;
+  color: #b7c6d9;
+  font-family: var(--font-family);
+}
+
+.ace-login-move-signUp span a {
+  font-weight: 400;
+  font-size: 13.6957px;
+  line-height: 20px;
+  color: #82ef00;
+  font-family: var(--font-family);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.ant-notification-notice-message {
+  margin-bottom: 8px;
+  color: #fff !important;
+  font-size: 16px;
+  line-height: 24px;
+}

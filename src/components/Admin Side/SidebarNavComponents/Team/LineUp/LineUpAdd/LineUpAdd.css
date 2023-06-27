@@ -1,0 +1,54 @@
+.ace-admin-team-line-up-modal-comp_contaienr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem 0 1.2rem 0;
+}
+.ace-admin-team-line-up-modal-comp {
+  width: 52.5rem;
+  /* height: 48.5rem; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ace-admin-team-line-up-modal_profile_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ace-admin-team-line-up-modal_profile_container img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 2.5rem;
+}
+
+.ace-admin-team-line-up-modal_profile_container h2 {
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 13.5065px;
+  padding-left: 1.1rem;
+}
+
+.ace-admin-team-line-up-modal-comp-btn {
+  width: 11.7rem;
+  height: 3.8rem;
+  background: var(--gradient-btn);
+  border-radius: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.ace-admin-team-line-up-modal-comp-btn h3 {
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 13.5065px;
+
+  margin-bottom: 0;
+}

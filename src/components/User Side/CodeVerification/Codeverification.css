@@ -1,0 +1,40 @@
+.inputStyle {
+  height: 4.4rem;
+
+  padding: 0.5rem;
+  width: 6.1rem !important;
+  margin: 0 0.9rem;
+  background-color: var(--color-primary-bg);
+
+  border-radius: 10px;
+  color: #fff;
+  border: 1px solid #667080;
+  /* outline: none; */
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+}
+
+.ace-codeVerification-resend-text {
+  padding: 8rem 0 8.6rem 0;
+}
+
+.ace-codeVerification-resend-text p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 1.36957rem;
+  line-height: 20px;
+  text-align: center;
+
+  color: #b7c6d9;
+}
+
+.ace-codeVerification-resend-text p a {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 1.36957rem;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+
+  color: #82ef00;
+}

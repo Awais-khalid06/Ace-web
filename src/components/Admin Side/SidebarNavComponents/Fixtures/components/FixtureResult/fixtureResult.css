@@ -1,0 +1,25 @@
+.ace-admin-fixture-comp-fixture-result-main_conatiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 33rem;
+  padding: 0 2.4rem;
+  margin-top: 1.4rem;
+}
+
+.ace-admin-fixture-comp-fixture-result-show {
+  width: 2.9rem;
+  height: 1.8rem;
+  border-radius: 2px;
+  background: var(--gradient-btn);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.ace-admin-fixture-comp-fixture-result-show h2 {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-size: 12px;
+  margin-bottom: 0;
+}

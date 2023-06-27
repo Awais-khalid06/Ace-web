@@ -1,0 +1,20 @@
+.ace-input-container input {
+  width: 33.5rem;
+  height: 5.2rem;
+  padding: 10px;
+  border: 1px solid #667080;
+  outline: none;
+  background-color: var(--color-primary-bg);
+  border-radius: 6.4px;
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 1.8rem;
+}
+.ace-input-container p {
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+  margin: 1.7rem 0 0 0;
+}

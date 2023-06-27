@@ -1,0 +1,59 @@
+.ac__home__quotes__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  height: 27.9rem;
+  background: var(--color-primary-bg);
+  box-shadow: 0px 1.36364px 10.9091px rgba(0, 0, 0, 0.3);
+  border-radius: 1.36364rem;
+  /* margin: 0 3.65rem; */
+}
+.ac__home__quotes__container p {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 139.9%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  text-transform: capitalize;
+  padding: 10rem 1.8rem 2.2rem 1.8rem;
+  color: var(--color-white);
+}
+
+.ac__home__quotes__container h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.82422rem;
+  line-height: 21px;
+  color: var(--color-white);
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0;
+}
+
+.ac__home__quotes__container h3 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.12422rem;
+  line-height: 21px;
+  color: var(--color-white);
+  text-align: center;
+  text-transform: capitalize;
+  padding: 2rem 0 4.7rem 0;
+}
+
+.ac__home__quotes__img-container {
+  position: absolute;
+  z-index: 10;
+  left: 30%;
+  right: 0%;
+  top: -8.78%;
+  bottom: 8.78%;
+}
+.ac__home__quotes__img-container img {
+  width: 10rem;
+  height: 8.2rem;
+}

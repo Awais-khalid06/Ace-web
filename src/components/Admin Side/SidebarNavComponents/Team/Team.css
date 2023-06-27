@@ -1,0 +1,166 @@
+.ace-admin-team_main-container {
+  height: 103.2rem;
+  background: var(--color-primary-bg);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: -17px; /* Increase/Decrease this value for cross-browser compatibility */
+  overflow-y: scroll;
+}
+.ace-admin-team_my-team {
+  width: 71.5rem;
+}
+.ace-admin-team_my-team h1 {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 2.09rem;
+  line-height: 24px;
+  padding: 5.7rem 0 4.8rem 0rem;
+}
+.ace-admin-team-my_team-main_container {
+  display: flex;
+  flex-direction: row;
+  width: 71.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ace-admin-team-my_team-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.ace-admin-team-my_team-container-main_heading h1 {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 1.63rempx;
+  line-height: 26px;
+  padding-bottom: 0.8rem;
+}
+
+.ace-admin-team-line-up-container a img {
+  height: 32rem;
+  width: 33.3rem;
+}
+.ace-admin-team_my-team h2 {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 3.5rem 0 0.8rem 0;
+  margin-bottom: 0;
+}
+.ace-admin-team_videos-main_container {
+  width: 71.5rem;
+
+  height: 24.5rem;
+  padding: 1.4rem 0 3.7rem 2.3rem;
+  background: var(--color-primary-bg);
+  box-shadow: 0px 1.25373px 10.0299px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+  position: relative;
+}
+.ace-admin-team_videos-main_container-over-flow {
+  position: absolute;
+  top: 3.2rem;
+  bottom: 0;
+  left: 2.2rem;
+  right: -17px;
+  overflow-x: scroll;
+  /* scroll-padding: 0; */
+  scroll-behavior: smooth;
+}
+.ace-admin-team_videos-categroy_container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  /* overflow-x: scroll; */
+}
+
+.ace-admin-team_videos-categroy_title {
+  width: 28rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ace-admin-team_videos-categroy_title h2 {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-size: 1.56rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.ace-admin-team_videos-categroy_title-add_short p {
+  font-family: var(--font-family);
+  color: var(--color-green);
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding: 0 1.4rem 0 0;
+  margin-bottom: 0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.ace-admin-team_videos_container {
+  display: flex;
+  flex-direction: row;
+
+  padding: 2.8rem 1.65rem 0 0;
+}
+.ace-admin-video_player-container {
+  position: relative;
+}
+.ace-admin-video_player-container img {
+  width: 45px;
+  height: 45px;
+  z-index: 10;
+  position: absolute;
+  top: 5.5rem;
+  left: 3rem;
+}
+.ace-admin-team_my-team h3 {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 3.5rem 0 3.5rem 0;
+  margin-bottom: 0;
+}
+.ace-admin-team_videos-main_container-over-flow::-webkit-scrollbar {
+  height: 4px;
+}
+
+/* Track */
+.ace-admin-team_videos-main_container-over-flow::-webkit-scrollbar-track {
+  background: var(--color-primary-bg);
+  border-radius: 10px;
+}
+
+/* Handle */
+.ace-admin-team_videos-main_container-over-flow::-webkit-scrollbar-thumb {
+  background: rgb(226, 226, 226);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.ace-admin-team_videos-main_container-over-flow::-webkit-scrollbar-thumb:hover {
+  background: rgb(229, 229, 229);
+}
+
+.ace-admin-team_videos_container video {
+  width: 10.746rem;
+  height: 15.305rem;
+  margin: 0 2rem 0 0;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+}

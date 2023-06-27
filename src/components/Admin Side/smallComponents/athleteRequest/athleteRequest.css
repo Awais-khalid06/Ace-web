@@ -1,0 +1,47 @@
+.ace-home-admin-athlete-request-main_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 71.5rem;
+}
+
+.ace-home-admin-athlete-request-profile_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ace-home-admin-athlete-request-profile_container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.ace-home-admin-athlete-request-profile_container h2 {
+  font-size: 1.35rem;
+  font-family: var(--font-family);
+  color: var(--color-white);
+  padding: 1.165rem;
+  font-weight: 500;
+}
+.ace-home-admin-athlete-request-profile-today h2 {
+  font-family: var(--font-family);
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: var(--color-white);
+  padding-left: 8rem;
+}
+
+.ace-home-admin-athlete-request-btn-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.ace-home-admin-athlete-request-line {
+  border: 1px solid;
+  color: var(--color-white);
+  opacity: 0.2;
+  width: 100%;
+  margin: 1.8rem 0 1.8rem 0;
+}

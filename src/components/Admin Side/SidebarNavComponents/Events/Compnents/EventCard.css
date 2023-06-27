@@ -1,0 +1,50 @@
+.ace-admin-events-comp-event_card-main_container {
+  width: 93%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.7rem 0rem;
+  /* height: 13.3rem; */
+  background: var(--color-primary-bg);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.ace-admin-events-comp-event_card-content-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2.1rem 0 2.3rem 1.9rem;
+}
+
+.ace-admin-events-comp-event_card-content-container h2 {
+  font-size: 1.4rem;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+}
+
+.ace-admin-events-comp-event_card-content-container h3 {
+  font-size: 0.7rem;
+  color: #999fa9;
+  font-family: var(--font-family);
+  font-weight: 500;
+  margin-bottom: 0;
+  padding-bottom: 3.3rem;
+}
+
+.ace-admin-events-comp-event_card-content-container p {
+  font-size: 0.88rem;
+  color: #999fa9;
+  font-family: var(--font-family);
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.ace-admin-events-comp-event_card-content-image-container img {
+  width: 17.8rem;
+  height: 10rem;
+  margin-right: 1.6rem;
+  border-radius: 17.3913px;
+  border-radius: 17.3913px;
+}

@@ -1,0 +1,109 @@
+.ace-notification-bar-notification-container {
+  padding: 0 5.1rem 0 4.1rem;
+  display: flex;
+  flex-direction: column;
+}
+.ace-notification-bar-bell_container img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.ace-notification-bar-bell_container {
+  display: flex;
+  flex-direction: row;
+  padding: 5.7rem 0 1.2rem 0;
+  cursor: pointer;
+}
+
+.ace-notification-bar-bell_container h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.09557rem;
+  line-height: 24px;
+  color: var(--color-white);
+  padding: 0 0 0 1rem;
+  font-family: var(--font-family);
+}
+
+.ace-notification-bar-notification-container p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.4669rem;
+  line-height: 17px;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  margin-bottom: 0;
+  padding: 1.2rem 0 1.2rem 0rem;
+}
+.ace-notification_bar-coach-profile_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4.3rem 0;
+}
+
+.ace-notification_bar-coach-profile_container img {
+  width: 14.1rem;
+  height: 14.1rem;
+  border-radius: 7rem;
+
+  filter: drop-shadow(0px 4px 8px rgba(130, 239, 0, 0.1));
+}
+
+.ace-notification_bar-coach-profile_container h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 24px;
+  font-family: var(--font-family);
+  color: var(--color-white);
+  padding: 2.7rem 0 1.3rem 0;
+}
+.ace-notification_bar-coach-profile_container a p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.0301px;
+  line-height: 15px;
+  font-family: var(--font-family);
+  color: var(--color-green);
+  margin-bottom: 0;
+}
+.ace-notification_bar-coach-profile_team img {
+  width: 5.2rem;
+  height: 5.2rem;
+  margin: 0.9rem 1.2rem 0.9rem 0;
+  border-radius: 2.6rem;
+}
+
+.ace-notification_bar-coach-profile_team {
+  margin: 3rem 0 0 5.1rem;
+}
+.ace-notification-layout-sidebar-athleteTeam {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0 0 0;
+}
+.ace-notification-layout-sidebar-athleteTeam h1 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 24px;
+  color: var(--color-white);
+}
+
+.ace-notification-layout-sidebar-athleteTeam a {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 24px;
+  color: var(--color-green);
+  text-decoration: underline;
+  margin-bottom: 0;
+  padding: 0 0 0 0.5rem;
+}
+.ace-notification-layout-sidebar-athleteTeam a:hover {
+  color: var(--color-green);
+  text-decoration: underline;
+}

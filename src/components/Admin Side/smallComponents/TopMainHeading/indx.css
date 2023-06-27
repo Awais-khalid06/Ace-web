@@ -1,0 +1,29 @@
+.ace-admin-small-components-main_heading {
+  /* padding: 0 7rem; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5.7rem 0 4.8rem 0;
+}
+.ace-admin-small-components-heading h2 {
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-size: 2.1rem;
+  font-weight: 500;
+}
+.ace-admin-small-components-main_heading-btn {
+  width: 11.7rem;
+  height: 4.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gradient-btn);
+  border-radius: 25px;
+}
+.ace-admin-small-components-main_heading-btn h3 a {
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-size: 1rem;
+  margin-bottom: 0;
+}

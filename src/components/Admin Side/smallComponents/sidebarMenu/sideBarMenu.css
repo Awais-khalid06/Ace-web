@@ -1,0 +1,39 @@
+.ace-admin-siderbar-menu-component a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1.7rem 0 1.4rem 3.6rem;
+  cursor: pointer;
+}
+.ace-admin-siderbar-menu-component a img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.ace-admin-siderbar-menu-component img:hover {
+  filter: invert(52%) sepia(65%) saturate(702%) hue-rotate(61deg)
+    brightness(102%) contrast(101%);
+}
+
+.ace-admin-siderbar-menu-component a p :hover {
+  color: var(--color-green);
+}
+.ace-admin-siderbar-menu-component a p {
+  color: var(--color-white);
+  font-size: 1.9rem;
+  font-weight: 400;
+  font-family: var(--font-family);
+  padding: 0 0 0 2.5rem;
+  margin-bottom: 0;
+}
+
+.ace-admin-siderbar-menu-component p a:active {
+  color: #82ef00;
+}
+
+.ace-admin-siderbar-menu-component .ace-admin-sidebar-menu-numberOfMessage p {
+  color: #000;
+  font-size: 12px;
+  align-content: center;
+  padding: 0;
+}

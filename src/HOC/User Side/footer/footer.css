@@ -1,0 +1,138 @@
+.ace__home__footer-container {
+  display: flex;
+  background: var(--color-secondary-bg);
+  flex-direction: column;
+}
+.ace__home__footer__links-container {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  /* align-items: flex-start; */
+  /* width: 100%; */
+  justify-content: space-around;
+}
+.ace__home__footer__links-section1 {
+  display: flex;
+  /* flex: 1; */
+  /* width: 525px; */
+  flex-direction: column;
+  align-items: center;
+  /* padding-right: 2rem; */
+  /* justify-content: center; */
+}
+.ace__home__footer__links-section1 h1,
+.ace__home__footer__links-section2 h1,
+.ace__home__footer__links-section3 h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 32px;
+  color: var(--color-white);
+  margin: 4.5rem 0 2rem 0;
+}
+
+.ace__home__footer__links-section2 h1 {
+  margin: 4.5rem 0 0.9rem 0;
+}
+.ace__home__footer__links-section1 img {
+  width: 8rem;
+  height: 8.1rem;
+  margin-bottom: 2.2rem;
+}
+.ace__home__footer__links-section1 p {
+  max-width: 320px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 13.6107px;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  color: #eaeaea;
+  align-self: flex-end;
+  margin-bottom: 4.1rem;
+}
+
+.ace__home__footer-container__social-media_contianer {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding-bottom: 6.1rem;
+}
+
+.ace__home__footer-container__social-media_contianer img {
+  width: 24px;
+  height: 24px;
+  margin: 0 2.4rem 0 0;
+  cursor: pointer;
+}
+
+.ace__home__footer__links-section2 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* width: 525px; flex: 1; */
+}
+
+.ace__home__footer__links-section2__links p {
+  font-family: var(--font-family);
+
+  font-weight: 400;
+  font-size: 1.41934rem;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+
+  color: #dadaf7;
+  margin: 2.2rem 0;
+  cursor: pointer;
+}
+
+.ace__home__footer__links-section3 {
+  display: flex;
+  /* flex: 1; */
+  /* align-items: center; */
+  justify-content: center;
+  /* width: 525px; */
+}
+
+.ace__home__footer__last-line p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: #dadaf7;
+  margin-bottom: 3.3rem;
+}
+
+@media screen and (max-width: 580px) {
+  .ace__home__footer__links-container {
+    margin: 2rem;
+  }
+  .ace__home__footer__links-section1 h1,
+  .ace__home__footer__links-section2 h1,
+  .ace__home__footer__links-section3 h1 {
+    font-size: 2rem;
+  }
+
+  .ace__home__footer__links-section1 p {
+    font-size: 11px;
+  }
+  .ace__home__footer__links-section1 img {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+  }
+  .ace__home__footer__links-section2__links p {
+    font-size: 1.21934rem;
+
+    margin: 1.6rem 0;
+  }
+}
+
+.ace__home__footer__links-section2__links {
+  padding: 0 5rem 0 0;
+}

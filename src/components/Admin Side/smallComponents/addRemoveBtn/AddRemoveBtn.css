@@ -1,0 +1,18 @@
+.ace-homeAdmin-addRemove-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 11.7rem;
+  height: 4.3rem;
+  background: var(--gradient-btn);
+  border-radius: 5rem;
+}
+
+.ace-homeAdmin-addRemove-btn-container h2 {
+  font-size: 1.1rem;
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-weight: 500;
+  margin-bottom: 0;
+}

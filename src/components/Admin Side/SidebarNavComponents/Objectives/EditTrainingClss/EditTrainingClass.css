@@ -1,0 +1,25 @@
+.ace-admin-objectives-edit-session-edit-video-container {
+  width: 33.5rem;
+  height: 5.3rem;
+  border: 1px solid #667080;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.ace-admin-objectives-edit-session-edit-video-container h2 {
+  color: var(--color-green);
+  padding: 0.5rem 0;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 1.5rem 0 2rem 2rem;
+}
+.ace-admin-objectives-edit-session-edit-container img {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+}

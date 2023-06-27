@@ -1,0 +1,22 @@
+.ace-admin-fixture-team-name-pic-right-comp-main_conatiner {
+  display: flex;
+  /* width: 11.2rem; */
+  align-items: center;
+  justify-content: flex-start;
+  width: 11rem;
+}
+
+.ace-admin-fixture-team-name-pic-right-comp-main_conatiner img {
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 13px;
+}
+
+.ace-admin-fixture-team-name-pic-right-comp-main_conatiner h2 {
+  font-family: var(--font-family);
+  color: #999fa9;
+  font-size: 9.7px;
+  font-weight: 500;
+  margin-bottom: 0;
+  padding-left: 4px;
+}

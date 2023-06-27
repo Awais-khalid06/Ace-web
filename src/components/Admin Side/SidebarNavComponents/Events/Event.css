@@ -1,0 +1,17 @@
+.ace-events-trail_events-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 93%;
+  /* padding: 1.2rem 2.3rem; */
+}
+
+.ace-events-trail_events-container h2 {
+  font-size: 1.6rem;
+  color: #999fa9;
+  font-family: var(--font-family);
+  font-weight: 400;
+  margin-top: 1.2rem;
+  margin-bottom: 0;
+}

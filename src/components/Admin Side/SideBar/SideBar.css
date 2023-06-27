@@ -1,0 +1,42 @@
+.ace-dashboard-layout-sidebar-logo-container {
+  padding: 3.8rem 0 1.5rem 0;
+}
+
+.ace-dashboard-layout-sidebar-logo-container img {
+  width: 9.1rem;
+  height: 9.1rem;
+}
+.ace-dashboard-layout-sidebar-logo-container {
+  display: flex;
+  flex-direction: row;
+}
+.ace-dashboard-layout-sidebar-name-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+.ace-dashboard-layout-sidebar-name-container p {
+  margin-bottom: 0;
+}
+
+.ace-dashboard-layout-sidebar-name-container
+  .ace-dashboard-layout-sidebar-name {
+  color: var(--color-white);
+  font-size: 19px;
+  font-weight: 500;
+  font-family: var(--font-family);
+}
+
+.ace-dashboard-layout-sidebar-name-container
+  .ace-dashboard-layout-sidebar-name-slogan {
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font-family);
+}
+.ace-dashboard-layout-sidebar-line {
+  border: 1px solid;
+  color: var(--color-white);
+  opacity: 0.2;
+}

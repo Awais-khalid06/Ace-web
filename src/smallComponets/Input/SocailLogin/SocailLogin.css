@@ -1,0 +1,25 @@
+.ace-login-socailLogin-main-container {
+  display: flex;
+  flex-direction: row;
+  width: 23rem;
+  justify-content: space-between;
+}
+
+.ace-login-socailLogin-container {
+  width: 10.9rem;
+  height: 5.5rem;
+  border: 0.964205px solid #b7c6d9;
+  border-radius: 11.5705px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ace-login-socailLogin-container .google-icon {
+  width: 3.8rem;
+  height: 3.8rem;
+}
+
+.ace-login-socailLogin-container .facebook-icon {
+  width: 2.7rem;
+  height: 2.7rem;
+}
